@@ -44,10 +44,6 @@ function getRem(pwidth, prem) {
   html.style.fontSize = (oWidth / pwidth) * prem + 'px'
 }*/
 
-/*
-noting
- */
-
 import NavBar from "@/components/content/navBar/NavBar"
 export default {
   name: "Schedule",
