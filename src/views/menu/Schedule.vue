@@ -80,8 +80,6 @@ export default {
 }
 </script>
 
-
-
 <style scoped>
 #schedule {
   height: 1221px;
@@ -94,6 +92,8 @@ export default {
   text-align: center;
 }
 
+
+
 .time-select {
   position: relative;
 }
@@ -104,6 +104,8 @@ export default {
   background-color: #fff;
   border-collapse: collapse;
 }
+
+
 .time-select tr {
 
 }
