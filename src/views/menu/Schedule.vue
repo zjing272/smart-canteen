@@ -58,7 +58,7 @@ export default {
         },
         {
           title: '晚餐', images: ['n001.png', 'n002.png', 'n003.png']
-        },
+        }
       ]
     }
   },
@@ -79,6 +79,8 @@ export default {
   }
 }
 </script>
+
+
 
 <style scoped>
 #schedule {
