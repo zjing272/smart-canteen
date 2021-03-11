@@ -18,10 +18,10 @@
       <i class="el-icon-arrow-right"></i>
     </div>
     <div class="menu-info">
-      <div v-for="item in menuInfo" class="menu-info-item">
+      <div v-for="item in menuInfo" :key="item" class="menu-info-item">
         <ul>
           <li>{{item.title}}</li>
-          <li v-for="img in item.images">
+          <li v-for="(img, index) in item.images" :key="index">
             <img :src="img" alt="" class="info-img">
           </li>
         </ul>
